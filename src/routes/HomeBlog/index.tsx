@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import HeaderMain from "../../Compoentes/HeaderMain";
+import Footer from "../../Compoentes/Rodate";
 
 export function HomeBlog() {
   return (
@@ -8,6 +9,7 @@ export function HomeBlog() {
         <main className="flex-shrink-0"></main>
         <HeaderMain />
         <Outlet/>
+        <Footer/>
         <main />
       </body>
     </>
